@@ -2,7 +2,7 @@ USE `webDevelopment`;
 
 INSERT INTO `frameworks` (`framework`, `version`)
     VALUES
-    ('Symfony', 'version 2.8'),
-    ('Symfony', 'version 3'),
-    ('JQuery', 'version 1.6'),
-    ('JQuery', 'version 2.10');
+    ('Symfony', '2.8'),
+    ('Symfony', '3'),
+    ('JQuery', '1.6'),
+    ('JQuery', '2.10');
