@@ -17,6 +17,9 @@ ALTER TABLE `clients` ADD COLUMN `city` VARCHAR(30);
 
 -- ALTER TABLE `clients`
 --     DROP `secondPhoneNumber`,
---     CHANGE `firstPhoneNumber` `phoneNumber` VARCHAR(30),
+--     CHANGE `firstPhoneNumber` `phoneNumber` INT;
+-- 
+-- ALTER TABLE `clients`
+--     MODIFY `phoneNumber` VARCHAR(15),
 --     ADD COLUMN `zipCode` VARCHAR(10),
 --     ADD COLUMN `city` VARCHAR(30);
