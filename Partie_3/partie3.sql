@@ -3,12 +3,13 @@ USE `webDevelopment`;
 -- Exercice 1
 -- Dans la base de données webDevelopment, ajouter à la table languages une colonne versions (VARCHAR).
 
-ALTER TABLE `languages` ADD COLUMN `versions` VARCHAR(30);
+ALTER TABLE `languages` ADD `versions` VARCHAR(30);
+-- possible avec ADD COLUMN
 
 -- Exercice 2
 -- Dans la base de données webDevelopment, ajouter à la table frameworks une colonne version (INT).
 
-ALTER TABLE `frameworks` ADD COLUMN `version` INT;
+ALTER TABLE `frameworks` ADD `version` INT;
 
 -- Exercice 3
 -- Dans la base de données webDevelopment, dans la table languages renommer la colonne versions en version.
