@@ -8,12 +8,12 @@ SELECT * FROM `languages`;
 -- Exercice 2
 -- Dans la table languages, afficher toutes les versions de PHP.
 
-SELECT `version` FROM `languages` WHERE `language` = 'PHP';
+SELECT * FROM `languages` WHERE `language` = 'PHP';
 
 -- Exercice 3
 -- Dans la table languages, afficher toutes les versions de PHP et de JavaScript.
 
-SELECT `version` FROM `languages` WHERE `language` = 'PHP' OR `language` = 'JavaScript';
+SELECT * FROM `languages` WHERE `language` = 'PHP' OR `language` = 'JavaScript';
 
 -- Exercice 4
 -- Dans la table languages, afficher toutes les lignes ayant pour id 3,5,7.
@@ -30,6 +30,7 @@ SELECT * FROM `languages` WHERE `language` = 'JavaScript' LIMIT 2;
 -- Dans la table languages, afficher toutes les lignes qui ne sont pas du PHP.
 
 SELECT * FROM `languages` WHERE `language` != 'PHP';
+--  != ou <>
 
 -- Exercice 7
 -- Dans la table languages, afficher toutes les données par ordre alphabétique.
