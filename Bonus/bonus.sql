@@ -17,4 +17,6 @@ CREATE TABLE `cities`(
     `city` VARCHAR(30) NOT NULL
 );
 
-CREATE TABLE `commands`;
+CREATE TABLE `commands`(
+    
+);
