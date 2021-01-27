@@ -1,7 +1,7 @@
 -- Exercice 1
 -- Dans la table frameworks, afficher toutes les données de la table ayant une version 2.x (x étant un numéro quelconque).
 
-SELECT * FROM `frameworks` WHERE `version` LIKE '2.%';
+SELECT * FROM `frameworks` WHERE `version` LIKE '%2.%';
 
 -- Exercice 2
 -- Dans la table frameworks, afficher toutes les lignes ayant pour id 1 et 3.
